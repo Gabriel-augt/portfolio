@@ -1,0 +1,85 @@
+<script setup>
+import { Mail, Github} from 'lucide-vue-next';
+</script>
+
+<template>
+
+  <div class="flex justify-center bg-[#101010] text-[#B3B3B3]">
+
+    <div class="max-w-[1200px] h-screen flex justify-center gap-6">
+
+      <main>
+  
+        <section class="flex flex-col p-6 w-full bg-neutral-900 border-[1px] rounded-[32px] border-[#ffffff1a] mt-6">
+          <figure>
+            <img class="mb-4 w-[562px] h-[562px] rounded-2xl" src="../assets/avatar.png">
+          </figure>
+  
+          <div>
+             <h2 class="mb-6 text-xl font-semibold tracking-wider text-white">
+              Venha me dizer oi! &#128075
+            </h2>
+             
+             <section class="space-y-2">
+
+              <div class="border-[1px] bg-[#262626] hover:bg-opacity-50 border-[#ffffff1a] rounded-lg">
+                <a class="flex justify-center w-full text-base font-semibold tracking-wide text-white font-manrope" href="https://mailto:ctt.gbr@gmail.com/" target="_blank">
+                  <figure class="flex flex-row gap-2 p-2">
+                    <Mail fill="#212121" />
+                    <figcaption>ctt.gbr@gmail.com</figcaption>
+                  </figure>
+                </a>
+              </div>
+
+              <nav class="border-[1px] bg-[#262626] hover:bg-opacity-50 border-[#ffffff1a] rounded-lg">
+                <a class="flex justify-center w-full text-base font-semibold tracking-wide text-white font-manrope" href="https://github.com/Gabriel-augt" target="_blank">
+                  <figure class="flex flex-row gap-2 p-2">
+                    <Github fill="#212121" />
+                    <figcaption>@Gabriel-augt</figcaption>
+                  </figure>
+                </a>
+              </nav>
+
+             </section>
+            </div>
+              
+        </section>
+  
+      </main>
+  
+      <aside class="space-y-6 mt-7">
+
+        <section class="flex flex-col tracking-wide text-left font-manrope">
+
+          <article class="w-[564px] bg-neutral-900 p-6 border-[1px] border-[#ffffff1a] rounded-[32px] space-y-2">
+            
+            <h2 class="text-2xl text-white">Um pouco sobre mim</h2>
+
+            <ul role="list" class="pl-5 space-y-3 list-disc marker:text-[#ffffff1a] text-[#B3B3B3]">
+              <li>Formado em <strong>Análise e Desenvolvimento de Sistemas</strong></li>
+              <li>Sempre estudando, praticando e aperfeiçoando tecnologias</li>
+              <li>Em busca de <strong>oportunidades</strong></li>
+              <li>Estudo <strong>inglês</strong> e <strong>espanhol</strong></li>
+            </ul>
+
+          </article>
+        </section>
+
+        <section class="flex flex-col tracking-wide text-justify font-manrope">
+
+          <article class="w-[564px] bg-neutral-900 p-6 border-[1px] border-[#ffffff1a] rounded-[32px] space-y-2">
+            
+            <h2 class="text-2xl text-white">Habilidades</h2>
+
+          </article>
+
+        </section>
+      </aside>
+    </div>
+  </div>
+
+</template>
+
+<style>
+
+</style>
