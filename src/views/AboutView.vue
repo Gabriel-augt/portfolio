@@ -1,5 +1,6 @@
 <script setup>
-import { Mail, Github} from 'lucide-vue-next';
+import Skills from '@/components/Skills.vue';
+import { Mail, Linkedin , Github} from 'lucide-vue-next';
 </script>
 
 <template>
@@ -12,15 +13,15 @@ import { Mail, Github} from 'lucide-vue-next';
   
         <section class="flex flex-col p-6 w-full bg-neutral-900 border-[1px] rounded-[32px] border-[#ffffff1a] mt-6">
           <figure>
-            <img class="mb-4 w-[562px] h-[562px] rounded-2xl" src="../assets/avatar.png">
+            <img class="mb-4 w-[516px] h-[516px] rounded-2xl" src="../assets/avatar.png">
           </figure>
   
           <div>
-             <h2 class="mb-6 text-xl font-semibold tracking-wider text-white">
+             <h1 class="mb-2 text-2xl font-semibold tracking-wide text-white">
               Venha me dizer oi! &#128075
-            </h2>
+            </h1>
              
-             <section class="space-y-2">
+             <nav class="space-y-2">
 
               <div class="border-[1px] bg-[#262626] hover:bg-opacity-50 border-[#ffffff1a] rounded-lg">
                 <a class="flex justify-center w-full text-base font-semibold tracking-wide text-white font-manrope" href="https://mailto:ctt.gbr@gmail.com/" target="_blank">
@@ -31,16 +32,25 @@ import { Mail, Github} from 'lucide-vue-next';
                 </a>
               </div>
 
-              <nav class="border-[1px] bg-[#262626] hover:bg-opacity-50 border-[#ffffff1a] rounded-lg">
+              <div class="border-[1px] bg-[#262626] hover:bg-opacity-50 border-[#ffffff1a] rounded-lg">
+                <a class="flex justify-center w-full text-base font-semibold tracking-wide text-white font-manrope" href="https://www.linkedin.com/in/gabriel-augusto-44732a219" target="_blank">
+                  <figure class="flex flex-row gap-2 p-2">
+                    <Linkedin fill="#212121" />
+                    <figcaption>Gabriel Augusto</figcaption>
+                  </figure>
+                </a>
+              </div>
+
+              <div class="border-[1px] bg-[#262626] hover:bg-opacity-50 border-[#ffffff1a] rounded-lg">
                 <a class="flex justify-center w-full text-base font-semibold tracking-wide text-white font-manrope" href="https://github.com/Gabriel-augt" target="_blank">
                   <figure class="flex flex-row gap-2 p-2">
                     <Github fill="#212121" />
                     <figcaption>@Gabriel-augt</figcaption>
                   </figure>
                 </a>
-              </nav>
+              </div>
 
-             </section>
+             </nav>
             </div>
               
         </section>
@@ -49,7 +59,7 @@ import { Mail, Github} from 'lucide-vue-next';
   
       <aside class="space-y-6 mt-7">
 
-        <section class="flex flex-col tracking-wide text-left font-manrope">
+        <section class="flex flex-col font-semibold tracking-wide text-left font-manrope">
 
           <article class="w-[564px] bg-neutral-900 p-6 border-[1px] border-[#ffffff1a] rounded-[32px] space-y-2">
             
@@ -65,11 +75,13 @@ import { Mail, Github} from 'lucide-vue-next';
           </article>
         </section>
 
-        <section class="flex flex-col tracking-wide text-justify font-manrope">
+        <section class="font-semibold tracking-wide text-justify font-manrope">
 
-          <article class="w-[564px] bg-neutral-900 p-6 border-[1px] border-[#ffffff1a] rounded-[32px] space-y-2">
+          <article class="w-[564px] bg-neutral-900 p-6 border-[1px] border-[#ffffff1a] rounded-[32px]">
             
-            <h2 class="text-2xl text-white">Habilidades</h2>
+            <h2 class="text-2xl text-white">Tecnologias</h2>
+
+            <Skills/>
 
           </article>
 
@@ -79,7 +91,3 @@ import { Mail, Github} from 'lucide-vue-next';
   </div>
 
 </template>
-
-<style>
-
-</style>

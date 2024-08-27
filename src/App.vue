@@ -1,15 +1,15 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import {House, Brush, CircleUserRound } from 'lucide-vue-next';
+import { House, Brush, CircleUserRound } from 'lucide-vue-next';
 import { ref } from 'vue';
 
-const homeBg = ref()
-const projectsBg = ref()
-const aboutMeBg = ref()
-const homeIndicator = ref(false)
-const projectsIndicator = ref(false)
-const aboutMeIndicator = ref(false)
-const url = ref(document.URL)
+const homeBg = ref();
+const projectsBg = ref();
+const aboutMeBg = ref();
+const homeIndicator = ref(false);
+const projectsIndicator = ref(false);
+const aboutMeIndicator = ref(false);
+const url = ref(document.URL);
 
 const fixedBg = (clicksOnIcons) => {
 
@@ -115,6 +115,3 @@ enableUrlStyles()
 
   <RouterView />
 </template>
-
-<style scoped>
-</style>

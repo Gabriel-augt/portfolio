@@ -5,6 +5,3 @@
         <div class="text-5xl text-white">Projects</div>
     </main>
 </template>
-<style scoped>
-
-</style>
