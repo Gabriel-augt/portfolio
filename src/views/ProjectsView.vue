@@ -1,7 +1,6 @@
 <script setup>
+import Projects from '../components/Projects.vue';
 </script>
 <template>
-    <main class="w-screen h-screen flex justify-center items-center bg-[#101010]">
-        <div class="text-5xl text-white">Projects</div>
-    </main>
+  <Projects />
 </template>
