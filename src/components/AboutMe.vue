@@ -57,25 +57,25 @@ import { Mail, Linkedin , Github} from 'lucide-vue-next';
   
       </main>
   
-      <aside class="space-y-6 mt-7">
+      <aside class="space-y-6 font-semibold tracking-wide mt-7 font-manrope">
 
-        <section class="flex flex-col font-semibold tracking-wide text-left font-manrope">
+        <section class="flex flex-col text-left">
 
           <article class="w-[564px] bg-neutral-900 p-6 border-[1px] border-[#ffffff1a] rounded-[32px] space-y-2">
             
             <h2 class="text-2xl text-white">Um pouco sobre mim</h2>
 
-            <ul role="list" class="pl-5 space-y-3 list-disc marker:text-[#ffffff1a] text-[#B3B3B3]">
-              <li>Formado em <strong>Análise e Desenvolvimento de Sistemas</strong></li>
-              <li>Sempre estudando, praticando e aperfeiçoando tecnologias</li>
-              <li>Em busca de <strong>oportunidades</strong></li>
-              <li>Estudo <strong>inglês</strong> e <strong>espanhol</strong></li>
-            </ul>
+            <p class="font-normal leading-relaxed">
+              Desenvolvedor <strong>Front-End</strong> em início de carreira, com habilidades em <strong>HTML</strong>, <strong>CSS</strong>,
+              <strong>JavaScript</strong> e frameworks modernos como <strong>VueJS</strong>. Apaixonado por criar interfaces
+              <strong>intuitivas e responsivas</strong>, estou em busca de <strong>oportunidades</strong> para aplicar e expandir
+              meus conhecimentos em projetos reais.
+            </p>
 
           </article>
         </section>
 
-        <section class="font-semibold tracking-wide text-justify font-manrope">
+        <section class="text-justify">
 
           <article class="w-[564px] bg-neutral-900 p-6 border-[1px] border-[#ffffff1a] rounded-[32px]">
             

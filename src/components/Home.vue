@@ -12,7 +12,7 @@ import { Linkedin ,Github} from 'lucide-vue-next';
     <h2 class="text-[#B3B3B3] text-3xl font-manrope tracking-wider font-light
     after:bg-[#B3B3B3] after:w-[1px] after:h-20 after:absolute after:rotate-90 after:ml-16 after:-translate-y-5
     before:bg-[#B3B3B3] before:w-[1px] before:h-20 before:absolute before:rotate-90 before:-ml-16 before:-translate-y-5">
-      Desenvolvedor Front-end
+      Desenvolvedor Front-End
     </h2>
 
     <section class="flex flex-row items-center justify-center space-x-4">
