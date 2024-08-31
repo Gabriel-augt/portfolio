@@ -1,7 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HomeNavBar from './components/HomeNavBar.vue';
-import ProjectsNavBar from './ProjectsNavBar.vue';
+import ProjectsNavBar from './components/ProjectsNavBar.vue';
 import AboutMeNavBar from './components/AboutMeNavBar.vue';
 import { ref } from 'vue';
 
