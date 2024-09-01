@@ -1,7 +1,7 @@
 <script setup>
 import Skills from '../components/Skills.vue';
 import HtmlForm from './HtmlForm.vue';
-import { Mail, Linkedin , Github } from 'lucide-vue-next';
+import { Linkedin , Github } from 'lucide-vue-next';
 </script>
 
 <template>
@@ -23,16 +23,7 @@ import { Mail, Linkedin , Github } from 'lucide-vue-next';
             </h1>
              
              <nav class="space-y-2">
-
-              <div class="border-[1px] bg-[#262626] hover:bg-opacity-50 border-[#ffffff1a] rounded-lg">
-                <a class="flex justify-center w-full text-base font-semibold tracking-wide text-white font-manrope" href="https://mailto:ctt.gbr@gmail.com/" target="_blank">
-                  <figure class="flex flex-row gap-2 p-2">
-                    <Mail fill="#212121" />
-                    <figcaption>ctt.gbr@gmail.com</figcaption>
-                  </figure>
-                </a>
-              </div>
-
+              
               <div class="border-[1px] bg-[#262626] hover:bg-opacity-50 border-[#ffffff1a] rounded-lg">
                 <a class="flex justify-center w-full text-base font-semibold tracking-wide text-white font-manrope" href="https://www.linkedin.com/in/gabriel-augusto-44732a219" target="_blank">
                   <figure class="flex flex-row gap-2 p-2">
@@ -58,7 +49,7 @@ import { Mail, Linkedin , Github } from 'lucide-vue-next';
   
       </main>
   
-      <aside class="space-y-6 font-semibold tracking-wide mt-7 font-manrope">
+      <aside class="space-y-4 font-semibold tracking-wide mt-7 font-manrope">
 
         <section class="flex flex-col text-left">
 
