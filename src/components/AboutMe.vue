@@ -1,13 +1,14 @@
 <script setup>
 import Skills from '../components/Skills.vue';
-import { Mail, Linkedin , Github} from 'lucide-vue-next';
+import HtmlForm from './HtmlForm.vue';
+import { Mail, Linkedin , Github } from 'lucide-vue-next';
 </script>
 
 <template>
 
   <div class="flex justify-center bg-[#101010] text-[#B3B3B3]">
 
-    <div class="max-w-[1200px] h-screen flex justify-center gap-6">
+    <div class="max-w-[1200px] h-screen flex justify-center gap-6 z-10">
 
       <main>
   
@@ -86,7 +87,12 @@ import { Mail, Linkedin , Github} from 'lucide-vue-next';
           </article>
 
         </section>
+
+        <HtmlForm />
+
       </aside>
+
     </div>
+
   </div>
 </template>

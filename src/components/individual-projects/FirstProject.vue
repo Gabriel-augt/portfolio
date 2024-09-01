@@ -2,7 +2,7 @@
 import { Github } from 'lucide-vue-next';
 </script>
 <template>
-    <section class="w-[1200px] flex flex-col items-center justify-center gap-6 h-min bg-[#101010]">
+    <section class="w-[1200px] flex flex-col items-center justify-center gap-6 h-min z-10">
 
         <section class="w-[908px] h-[408px] mt-6 flex flex-row justify-center items-center border-[1px]
         border-[#ffffff1a] rounded-[32px] bg-gradient-to-tr from-black to-red-950">

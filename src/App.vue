@@ -66,6 +66,15 @@ enableUrlStyles();
 </script>
 
 <template>
+
+  <main>
+
+    <figure class="absolute bg-gradient-to-tr from-transparent to-black">
+      <img class="w-screen h-screen opacity-30" src="/bg.jpg">
+    </figure>
+    
+  </main>
+
   <footer>
 
     <div class="bg-[#212121bd] backdrop-blur-sm border-[1px] border-[#ffffff1a] text-[#F8F8F8] fixed rounded-3xl bottom-3 left-2/4 -translate-x-2/4 text-xl flex-nowrap z-30">

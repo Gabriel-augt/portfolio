@@ -1,5 +1,5 @@
 <script setup>
-import { Linkedin ,Github} from 'lucide-vue-next';
+import { Linkedin ,Github } from 'lucide-vue-next';
 </script>
 <template>
     <section class="flex flex-row items-center justify-center space-x-4">
