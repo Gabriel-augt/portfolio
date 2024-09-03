@@ -6,13 +6,13 @@ import { Linkedin , Github } from 'lucide-vue-next';
 
 <template>
 
-  <div class="flex justify-center bg-[#101010] text-[#B3B3B3]">
+  <div class="flex justify-center text-white-75">
 
     <div class="max-w-[1200px] h-screen flex justify-center gap-6 z-10">
 
       <main>
   
-        <section class="flex flex-col p-6 w-full bg-neutral-900 border-[1px] rounded-[32px] border-[#ffffff1a] mt-6">
+        <section class="flex flex-col p-6 w-full bg-neutral-900 border-[1px] rounded-[32px] border-gray-925 mt-6">
           <figure>
             <img class="mb-4 w-[516px] h-[516px] rounded-2xl" src="../assets/avatar.png">
           </figure>
@@ -24,7 +24,7 @@ import { Linkedin , Github } from 'lucide-vue-next';
              
              <nav class="space-y-2">
               
-              <div class="border-[1px] bg-[#262626] hover:bg-opacity-50 border-[#ffffff1a] rounded-lg">
+              <div class="border-[1px] bg-black-925 hover:bg-opacity-50 border-gray-925 rounded-lg">
                 <a class="flex justify-center w-full text-base font-semibold tracking-wide text-white font-manrope" href="https://www.linkedin.com/in/gabriel-augusto-44732a219" target="_blank">
                   <figure class="flex flex-row gap-2 p-2">
                     <Linkedin fill="#212121" />
@@ -33,7 +33,7 @@ import { Linkedin , Github } from 'lucide-vue-next';
                 </a>
               </div>
 
-              <div class="border-[1px] bg-[#262626] hover:bg-opacity-50 border-[#ffffff1a] rounded-lg">
+              <div class="border-[1px] bg-black-925 hover:bg-opacity-50 border-gray-925 rounded-lg">
                 <a class="flex justify-center w-full text-base font-semibold tracking-wide text-white font-manrope" href="https://github.com/Gabriel-augt" target="_blank">
                   <figure class="flex flex-row gap-2 p-2">
                     <Github fill="#212121" />
@@ -53,7 +53,7 @@ import { Linkedin , Github } from 'lucide-vue-next';
 
         <section class="flex flex-col text-left">
 
-          <article class="w-[564px] bg-neutral-900 p-6 border-[1px] border-[#ffffff1a] rounded-[32px] space-y-2">
+          <article class="w-[564px] bg-neutral-900 p-6 border-[1px] border-gray-925 rounded-[32px] space-y-2">
             
             <h2 class="text-2xl text-white">Um pouco sobre mim</h2>
 
@@ -69,7 +69,7 @@ import { Linkedin , Github } from 'lucide-vue-next';
 
         <section class="text-justify">
 
-          <article class="w-[564px] bg-neutral-900 p-6 border-[1px] border-[#ffffff1a] rounded-[32px]">
+          <article class="w-[564px] bg-neutral-900 p-6 border-[1px] border-gray-925 rounded-[32px]">
             
             <h2 class="text-2xl text-white">Tecnologias</h2>
 

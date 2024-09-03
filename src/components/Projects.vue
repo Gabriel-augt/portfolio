@@ -3,7 +3,7 @@ import FirstProject from './individual-projects/FirstProject.vue';
 import SecondProject from './individual-projects/SecondProject.vue';
 </script>
 <template>
-    <main class="w-full h-screen flex flex-col items-center bg-[#101010] font-manrope text-[#B3B3B3]">
+    <main class="flex flex-col items-center w-full h-screen font-manrope text-white-75">
 
         <FirstProject />
 
