@@ -16,6 +16,9 @@ export default {
         'white-75': '#B3B3B3',
         'white-25': '#F8F8F8',
       },
+      borderRadius: {
+        '4xl': '2rem'
+      }
     },
   },
   plugins: [],

@@ -77,7 +77,7 @@ enableUrlStyles();
 
   <footer>
 
-    <div class="bg-black-975 backdrop-blur-sm border-[1px] border-gray-925 text-white-25 fixed rounded-3xl bottom-3 left-2/4 -translate-x-2/4 text-xl flex-nowrap z-30">
+    <div class="fixed z-30 text-xl border bg-black-975 backdrop-blur-sm border-gray-925 text-white-25 rounded-3xl bottom-3 left-2/4 -translate-x-2/4 flex-nowrap">
       
       <nav class="z-10 flex flex-row gap-5 p-3 text-xs tracking-wider font-manrope">
 

@@ -4,8 +4,8 @@ import { Github } from 'lucide-vue-next';
 <template>
     <section class="w-[1200px] flex flex-col items-center justify-center gap-6 h-min z-10">
 
-        <section class="w-[908px] h-[408px] mt-6 flex flex-row justify-center items-center border-[1px]
-        border-gray-925 rounded-[32px] bg-gradient-to-tr from-black to-red-950">
+        <section class="w-[908px] h-[408px] mt-6 flex flex-row justify-center items-center border
+        border-gray-925 rounded-4xl bg-gradient-to-tr from-black to-red-950">
             
             <div class="h-full grow flex flex-col justify-center items-start ml-12 rounded-[31px]">
                 <h1 class="mb-3 text-3xl font-bold">Flamengo site conceito</h1>
@@ -76,21 +76,21 @@ import { Github } from 'lucide-vue-next';
                 <div class="flex flex-row gap-8 font-bold tracking-wider">
                     
                     <div class="flex flex-col items-center">
-                        <figure class="p-2 rounded-xl border-[1px] border-gray-925 hover:bg-black-925">
+                        <figure class="p-2 border rounded-xl border-gray-925 hover:bg-black-925">
                             <img class="w-6 h-6 rounded-md" src="/javascript.svg">
                         </figure>
                         <p class="mt-1 text-xs">JavaScript</p>
                     </div>
                     
                     <div class="flex flex-col items-center">
-                        <figure class="p-2 rounded-xl border-[1px] border-gray-925 hover:bg-black-925">
+                        <figure class="p-2 border rounded-xl border-gray-925 hover:bg-black-925">
                             <img class="w-6 h-6" src="/html.svg">
                         </figure>
                         <p class="mt-1 text-xs">HTML</p>
                     </div>
 
                     <div class="flex flex-col items-center">
-                        <figure class="p-2 rounded-xl border-[1px] border-gray-925 hover:bg-black-925">
+                        <figure class="p-2 border rounded-xl border-gray-925 hover:bg-black-925">
                             <img class="w-6 h-6" src="/css.svg">
                         </figure>
                         <p class="mt-1 text-xs">CSS</p>
