@@ -69,7 +69,7 @@ enableUrlStyles();
 
   <main>
 
-    <figure class="absolute bg-gradient-to-tr from-black to-black/95">
+    <figure class="fixed bg-gradient-to-tr from-black to-black/95">
       <img class="w-screen h-screen opacity-30" src="/bg.jpg">
     </figure>
     
@@ -77,7 +77,8 @@ enableUrlStyles();
 
   <footer>
 
-    <div class="fixed z-30 text-xl border bg-black-975 backdrop-blur-sm border-gray-925 text-white-25 rounded-3xl bottom-3 left-2/4 -translate-x-2/4 flex-nowrap">
+    <div class="fixed z-30 text-xl border bg-black-975 backdrop-blur-sm border-gray-925 text-white-25 rounded-3xl bottom-3 left-2/4 -translate-x-2/4 flex-nowrap
+    max-[850px]:h-">
       
       <nav class="z-10 flex flex-row gap-5 p-3 text-xs tracking-wider font-manrope">
 
