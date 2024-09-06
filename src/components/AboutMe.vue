@@ -8,19 +8,20 @@ import { Linkedin , Github } from 'lucide-vue-next';
 
   <div class="flex justify-center text-white-75">
 
-    <div class="max-w-[1200px] h-screen flex justify-center gap-6 z-10">
+    <div class="z-10 flex flex-row justify-center h-screen gap-6 max-[1200px]:flex-col
+    max-[1200px]:gap-0 max-[1200px]:h-min max-[590px]:container max-[1200px]:mx-3">
 
       <main>
   
         <section class="flex flex-col w-full p-6 mt-6 border bg-neutral-900 rounded-4xl border-gray-925">
           <figure>
-            <img class="mb-4 w-[516px] h-[516px] rounded-2xl" src="../assets/avatar.png">
+            <img class="mb-4 w-[516px] rounded-2xl" src="../assets/avatar.png">
           </figure>
   
           <div>
-             <h1 class="mb-2 text-2xl font-semibold tracking-wide text-white">
+             <h3 class="mb-2 text-2xl font-semibold tracking-wide text-white">
               Venha me dizer oi! &#128075
-            </h1>
+            </h3>
              
              <nav class="space-y-2">
               
@@ -49,13 +50,14 @@ import { Linkedin , Github } from 'lucide-vue-next';
   
       </main>
   
-      <aside class="space-y-4 font-semibold tracking-wide mt-7 font-manrope">
+      <aside class="space-y-4 font-semibold tracking-wide mt-7 font-manrope max-[1200px]:mb-28">
 
         <section class="flex flex-col text-left">
 
-          <article class="w-[564px] bg-neutral-900 p-6 border border-gray-925 rounded-4xl space-y-2">
+          <article class="w-[564px] bg-neutral-900 p-6 border border-gray-925 rounded-4xl space-y-2
+          max-[1200px]:h-min max-[590px]:container">
             
-            <h2 class="text-2xl text-white">Um pouco sobre mim</h2>
+            <h1 class="text-2xl text-white">Um pouco sobre mim</h1>
 
             <p class="font-normal leading-relaxed">
               Desenvolvedor <strong>Front-End</strong> em início de carreira, com habilidades em <strong>HTML</strong>, <strong>CSS</strong>,
@@ -69,7 +71,8 @@ import { Linkedin , Github } from 'lucide-vue-next';
 
         <section class="text-justify">
 
-          <article class="w-[564px] bg-neutral-900 p-6 border border-gray-925 rounded-4xl">
+          <article class="w-[564px] bg-neutral-900 p-6 border border-gray-925 rounded-4xl
+          max-[590px]:container">
             
             <h2 class="text-2xl text-white">Tecnologias</h2>
 

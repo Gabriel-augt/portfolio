@@ -13,7 +13,7 @@ import { Linkedin ,Github } from 'lucide-vue-next';
   
             <div class="absolute h-[100cqw] w-[100cqw] animate-spin
             bg-[conic-gradient(from_0_at_50%_50%,rgba(255,255,255,0.5)_0deg,transparent_60deg,transparent_300deg,rgba(255,255,255,0.5)_360deg)]
-            opacity-0 transition duration-300 [animation-duration:3s] group-hover:opacity-100 max-md:opacity-100"></div>
+            opacity-0 transition duration-300 [animation-duration:3s] group-hover:opacity-100 max-lg:opacity-100"></div>
   
             <div class="absolute inset-0.5 rounded-full bg-zinc-900"></div>
   
@@ -37,7 +37,7 @@ import { Linkedin ,Github } from 'lucide-vue-next';
         
                     <div class="absolute h-[100cqw] w-[100cqw] animate-spin
                     bg-[conic-gradient(from_0_at_50%_50%,rgba(255,255,255,0.5)_0deg,transparent_60deg,transparent_300deg,rgba(255,255,255,0.5)_360deg)]
-                    opacity-0 transition duration-300 [animation-duration:3s] group-hover:opacity-100 max-md:opacity-100"></div>
+                    opacity-0 transition duration-300 [animation-duration:3s] group-hover:opacity-100 max-lg:opacity-100"></div>
         
                     <div class="absolute inset-0.5 rounded-full bg-zinc-900"></div>
         

@@ -1,5 +1,5 @@
 <template>
-    <section class="flex flex-row gap-3 mt-4">
+    <section class="flex flex-row gap-3 mt-4 max-[1200px]:flex-wrap max-[1200px]:justify-center">
         
         <div class="flex flex-col items-center">
         <figure class="w-16 h-16 p-4 border rounded-xl border-gray-925 hover:bg-black-925">

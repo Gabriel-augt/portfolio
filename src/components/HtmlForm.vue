@@ -2,7 +2,7 @@
 import { ChevronRight } from 'lucide-vue-next';
 </script>
 <template>
-    <section class="flex flex-col justify-center px-6 py-3 space-y-3 border border-gray-925 rounded-4xl bg-neutral-900">
+    <section class="flex flex-col justify-center px-6 py-5 space-y-3 border border-gray-925 rounded-4xl bg-neutral-900">
         
           <h1 class="text-2xl text-white">Contato</h1>  
                 
