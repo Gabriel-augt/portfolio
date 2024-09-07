@@ -49,15 +49,27 @@ const fixedBg = (clicksOnIcons) => {
 const enableUrlStyles = () => {
 
 if (url.value.includes('/projects') == true) {
+
   projectsBg.value = 'bg-rose-900';
   projectsIndicator.value = true;
   
 } else if ((url.value.includes('/about') == true)) {
+
   aboutMeBg.value = 'bg-sky-700';
   aboutMeIndicator.value = true;
-} else {
+
+} else if ((url.value.includes('/thanks') == true)) {
+
+  aboutMeIndicator.value = false;
+  projectsIndicator.value = false;
+  homeIndicator.value = false;
+
+}
+else {
+
   homeBg.value = 'bg-teal-700';
   homeIndicator.value = true;
+
 }
 };
 

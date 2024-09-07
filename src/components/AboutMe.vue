@@ -1,6 +1,6 @@
 <script setup>
 import Skills from '../components/Skills.vue';
-import HtmlForm from './HtmlForm.vue';
+import Form from './Form.vue';
 import { Linkedin , Github } from 'lucide-vue-next';
 </script>
 
@@ -82,7 +82,7 @@ import { Linkedin , Github } from 'lucide-vue-next';
 
         </section>
 
-        <HtmlForm />
+        <Form />
 
       </aside>
 
