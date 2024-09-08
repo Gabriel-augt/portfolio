@@ -1,4 +1,5 @@
 <script setup>
+
 import { RouterLink, RouterView } from 'vue-router'
 import HomeNavBar from './components/HomeNavBar.vue';
 import ProjectsNavBar from './components/ProjectsNavBar.vue';
@@ -82,7 +83,9 @@ enableUrlStyles();
   <main>
 
     <figure class="fixed bg-gradient-to-tr from-black to-black/95">
+
       <img class="w-screen h-screen opacity-30" src="/bg.jpg">
+
     </figure>
     
   </main>
@@ -115,12 +118,15 @@ enableUrlStyles();
           <AboutMeNavBar @click="fixedBg('aboutMe')" :class="aboutMeBg" />
 
           <span v-if="aboutMeIndicator" class="absolute w-4 h-[3px] my-[5px] rounded-full left-[164px] bg-gray-925 border-none"></span>
+
         </RouterLink>
 
       </nav>
 
     </div>
+
   </footer>
 
   <RouterView />
+
 </template>

@@ -1,10 +1,13 @@
 <script setup>
+
 import HomeButtons from './HomeButtons.vue';
+
 </script>
 
 <template>
+
   <main class="flex flex-col items-center justify-center w-screen h-screen space-y-1">
-    
+
     <h1 class="z-10 mb-2 tracking-wider text-white text-7xl font-manrope font-extralight max-sm:text-5xl
     max-[375px]:text-4xl max-[345px]:text-[40px]">
       Gabriel Augusto
@@ -21,6 +24,7 @@ import HomeButtons from './HomeButtons.vue';
     </h2>
 
     <HomeButtons />
-    
+
   </main>
+
 </template>
