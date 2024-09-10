@@ -1,5 +1,6 @@
 <script setup>
 
+import LangSwitcher from '../components/LangSwitcher.vue';
 import HomeButtons from './HomeButtons.vue';
 
 </script>
@@ -7,6 +8,8 @@ import HomeButtons from './HomeButtons.vue';
 <template>
 
   <main class="flex flex-col items-center justify-center w-screen h-screen space-y-1">
+
+    <LangSwitcher />
 
     <h1 class="z-10 mb-2 tracking-wider text-white text-7xl font-manrope font-extralight max-sm:text-5xl
     max-[375px]:text-4xl max-[345px]:text-[40px]">
