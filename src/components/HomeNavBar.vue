@@ -7,10 +7,16 @@ import { House } from 'lucide-vue-next';
 <template>
 
     <figure class="flex flex-col items-center justify-center border border-gray-925 rounded-xl p-[11px]
-    hover:bg-teal-700 hover:ease-out hover:duration-300 hover:after:absolute hover:after:left-2 hover:after:-top-[34px]
-    hover:after:bg-neutral-900 hover:after:h-7 hover:after:w-[55px] hover:after:border hover:after:border-gray-925
-    hover:after:rounded-lg hover:after:p-1 hover:after:px-2 hover:after:content-['Início'] hover:after:text-sm hover:after:font-manrope
-    hover:after:text-white-75 hover:after:flex-nowrap">
+    hover:bg-teal-700 hover:ease-out hover:duration-300 group">
+
+        <span class="hidden group-hover:absolute group-hover:left-2 group-hover:-top-[34px]
+        group-hover:bg-neutral-900 group-hover:h-7 group-hover:w-max group-hover:border
+        group-hover:border-gray-925 group-hover:rounded-lg group-hover:p-1 group-hover:px-2
+        group-hover:text-sm group-hover:font-manrope group-hover:text-white-75 group-hover:block">
+
+            {{ $t('home') }}
+
+        </span>
 
         <House />
 

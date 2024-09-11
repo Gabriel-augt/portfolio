@@ -20,6 +20,8 @@ const i18n = createI18n({
   locale: "pt_BR",
   fallbackLocale: "pt_BR",
   messages: languages,
+  globalInjection: true,
+  legacy: false,
 });
 
 const app = createApp(App);

@@ -15,7 +15,7 @@ import Infos from './Infos.vue';
          max-[850px]:rounded-none max-[850px]:flex-col max-[850px]:h-[834px] max-[960px]:w-screen z-10">
 
             <div class="h-full grow flex flex-col justify-center items-start ml-12 rounded-[31px]
-            max-[344px]:ml-2 max-[850px]:ml-4 max-[850px]:-mb-48 max-[850px]:-mt-24">
+            max-[344px]:ml-2 max-[850px]:ml-0 max-[850px]:-mb-48 max-[850px]:-mt-24">
 
                 <Description />
 

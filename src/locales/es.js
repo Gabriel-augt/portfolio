@@ -1,4 +1,12 @@
 export const es = {
+  language: "Español",
+
+  home: "Inicio",
+
+  projects: "Proyectos",
+
+  about: "Sobre mí",
+
   devFrontEnd: "Desarrollador Front End",
 
   /*
@@ -6,8 +14,8 @@ export const es = {
     via html and not use v-html, as it is not recommended...
   */
   descriptionFlamengoProject: {
-    pt1: "Desarrollé un sitio web conceptual para Flamengo, enfocado a una experiencia aspecto",
-    pt2: "moderno e intuitivo",
+    pt1: "Desarrollé un sitio web conceptual para Flamengo, enfocado en una experiencia visual",
+    pt2: "moderna e intuitiva",
     pt3: "destacando la historia, los títulos y las noticias del club. Utilicé HTML, CSS y JavaScript para crear una",
     pt4: "interfaz interactiva y responsiva",
     pt5: "alineado con la identidad visual del equipo.",

@@ -2,12 +2,13 @@
 
 import { ArrowDown } from 'lucide-vue-next';
 import { ref } from 'vue';
+import { useI18n } from 'vue-i18n'
 
+const { locale } = useI18n({ useScope: 'global' })
 const dropdown = ref(false);
 const arrow = ref();
 
 const languages = () => {
-
 
     dropdown.value = !dropdown.value
 
@@ -15,9 +16,11 @@ const languages = () => {
 
 }
 
-const changeLanguage = (lang) => {
+const changeLanguage = (language, buttonLanguage) => {
 
-    console.log(lang)
+    languages()
+
+    locale.value = language
 
 }
 
@@ -29,7 +32,7 @@ const changeLanguage = (lang) => {
 
         <button @click="languages" class="flex flex-row items-center justify-center">
 
-            Português
+            {{ $t('language') }}
 
             <ArrowDown :class="arrow" class="ml-2 duration-200" size="18" />
 

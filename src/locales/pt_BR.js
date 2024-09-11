@@ -1,4 +1,12 @@
 export const pt_BR = {
+  language: "Português",
+
+  home: "Início",
+
+  projects: "Projetos",
+
+  about: "Sobre mim",
+
   devFrontEnd: "Desenvolvedor Front-End",
 
   /*

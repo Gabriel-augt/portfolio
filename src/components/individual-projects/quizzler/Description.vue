@@ -4,7 +4,7 @@
         Quizzler
     </h1>
 
-    <p class="text-base max-w-[358px] tracking-wider leading-relaxed">
+    <p class="text-base max-w-[358px] tracking-wider leading-relaxed max-[380px]:w-[340px]">
 
         {{ $t('descriptionQuizzleroProject.pt1') }}
 

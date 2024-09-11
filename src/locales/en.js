@@ -1,4 +1,12 @@
 export const en = {
+  language: "English",
+
+  home: "Home",
+
+  projects: "Projects",
+
+  about: "About me",
+
   devFrontEnd: "Front End Developer",
 
   /*
@@ -8,9 +16,9 @@ export const en = {
   descriptionFlamengoProject: {
     pt1: "I developed a conceptual website for Flamengo, focused on an experience visual",
     pt2: "modern and intuitive",
-    pt3: ", highlighting the club's history, titles and news. I used HTML, CSS and JavaScript to create a",
+    pt3: "highlighting the club's history, titles and news. I used HTML, CSS and JavaScript to create a",
     pt4: "interactive and responsive interface",
-    pt5: ", aligned with the team's visual identity.",
+    pt5: "aligned with the team's visual identity.",
     pt6: "Portuguese, English and Spanish",
     pt7: "available.",
   },

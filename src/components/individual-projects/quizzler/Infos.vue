@@ -4,7 +4,7 @@
 
         <figure>
 
-            <img class="w-[368px] h-[192px] rounded-xl" src="/quizzler-print.png">
+            <img class="w-[368px] h-[192px] rounded-xl max-[380px]:w-screen" src="/quizzler-print.png">
 
         </figure>
 

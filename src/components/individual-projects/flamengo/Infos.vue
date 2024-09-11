@@ -4,7 +4,7 @@
 
         <figure>
 
-            <img class="w-[368px] h-[192px] rounded-xl" src="/flamengo-print.png">
+            <img class="w-[368px] h-[192px] rounded-xl max-[380px]:w-screen" src="/flamengo-print.png">
 
         </figure>
 
