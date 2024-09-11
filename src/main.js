@@ -1,11 +1,29 @@
-import './assets/style.css'
+import "./assets/style.css";
 
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
+import { createApp } from "vue";
+import { createI18n } from "vue-i18n";
 
-const app = createApp(App)
+import { pt_BR } from "./locales/pt_BR";
+import { en } from "./locales/en";
+import { es } from "./locales/es";
 
-app.use(router)
+import App from "./App.vue";
+import router from "./router";
 
-app.mount('#app')
+const languages = {
+  pt_BR,
+  en,
+  es,
+};
+
+const i18n = createI18n({
+  locale: "pt_BR",
+  fallbackLocale: "pt_BR",
+  messages: languages,
+});
+
+const app = createApp(App);
+
+app.use(i18n);
+app.use(router);
+app.mount("#app");

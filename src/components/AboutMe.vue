@@ -23,7 +23,9 @@ import { Linkedin, Github } from 'lucide-vue-next';
 
 
           <h3 class="mb-2 text-2xl font-semibold tracking-wide text-white">
-            Venha me dizer oi! &#128075
+
+            {{ $t('sayHi') }} &#128075
+
           </h3>
 
           <nav class="space-y-2">
@@ -73,17 +75,33 @@ import { Linkedin, Github } from 'lucide-vue-next';
           <article class="w-[564px] bg-neutral-900 p-6 border border-gray-925 rounded-4xl space-y-2
           max-[1200px]:h-min max-[590px]:container">
 
-            <h1 class="text-2xl text-white">Um pouco sobre mim</h1>
+            <h1 class="text-2xl text-white">
+              
+              {{ $t('aboutMe') }}
+            
+            </h1>
 
             <p class="font-normal leading-relaxed">
 
-              Desenvolvedor <strong>Front-End</strong> em início de carreira, com habilidades em <strong>HTML</strong>,
-              <strong>CSS</strong>,
-              <strong>JavaScript</strong> e frameworks modernos como <strong>VueJS</strong>. Apaixonado por criar
-              interfaces
-              <strong>intuitivas e responsivas</strong>, estou em busca de <strong>oportunidades</strong> para aplicar e
-              expandir
-              meus conhecimentos em projetos reais.
+              {{ $t('descriptionAboutMe.pt1') }}
+              
+              <strong>{{ $t('descriptionAboutMe.pt2') }}</strong>
+
+              {{ $t('descriptionAboutMe.pt3') }}
+
+              <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>
+
+              {{ $t('descriptionAboutMe.pt4') }} <strong>VueJS</strong>. 
+
+              {{ $t('descriptionAboutMe.pt5') }}
+
+              <strong>{{ $t('descriptionAboutMe.pt6') }}</strong>,
+
+              {{ $t('descriptionAboutMe.pt7') }}
+              
+              <strong>{{ $t('descriptionAboutMe.pt8') }}</strong>
+              
+              {{ $t('descriptionAboutMe.pt9') }}
 
             </p>
 
@@ -95,7 +113,11 @@ import { Linkedin, Github } from 'lucide-vue-next';
           <article class="w-[564px] bg-neutral-900 p-6 border border-gray-925 rounded-4xl
           max-[590px]:container">
 
-            <h2 class="text-2xl text-white">Tecnologias</h2>
+            <h2 class="text-2xl text-white">
+              
+              {{ $t('technologies') }}
+            
+            </h2>
 
             <Skills />
 

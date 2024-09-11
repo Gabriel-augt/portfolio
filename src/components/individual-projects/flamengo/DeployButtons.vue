@@ -33,7 +33,7 @@ import { Github } from 'lucide-vue-next';
 
             </figure>
 
-            Ver projeto
+            {{ $t('viewProject') }}
 
           </span>
 
