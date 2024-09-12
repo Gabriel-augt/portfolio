@@ -1,10 +1,11 @@
 <template>
 
-  <h1 class="mb-3 text-3xl font-bold">
+  <h1 class="mb-3 text-3xl font-bold max-[345px]:ml-4">
     Flamengo
   </h1>
 
-  <p class="text-base max-w-[340px] tracking-wider leading-relaxed">
+  <p class="text-base max-w-[340px] tracking-wider leading-relaxed
+  max-[345px]:ml-4 max-[345px]:max-w-max">
 
     {{ $t('descriptionFlamengoProject.pt1') }}
 

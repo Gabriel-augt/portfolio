@@ -6,7 +6,7 @@ import { Github } from 'lucide-vue-next';
 
 <template>
 
-  <div class="flex flex-row gap-6 max-[380px]:gap-2">
+  <div class="flex flex-row gap-6 max-[380px]:gap-1">
 
     <button class="flex flex-row items-center justify-center gap-4 mt-6 max-[850px]:mt-10">
 

@@ -28,7 +28,7 @@ const changeLanguage = (language, buttonLanguage) => {
 
 <template>
 
-    <div class="absolute flex flex-col tracking-wider text-white-25 w-28 right-8 top-4 font-manrope">
+    <div class="absolute flex flex-col tracking-wider text-white-25 w-28 right-8 top-4 font-manrope max-md:right-4">
 
         <button @click="languages" class="flex flex-row items-center justify-center">
 

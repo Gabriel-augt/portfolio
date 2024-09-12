@@ -10,10 +10,10 @@ import { Linkedin, Github } from 'lucide-vue-next';
 
     <button class="flex flex-row items-center justify-center gap-4 mt-8">
 
-      <a href="https://www.linkedin.com/in/gabriel-augusto-44732a219" target="_blank"
+      <a href="https://www.linkedin.com/in/gabriel-augt" target="_blank"
         class="relative inline-flex items-center px-20 overflow-hidden transition rounded-full py-7 group bg-zinc-800 ">
 
-        <div class="absolute inset-0 flex items-center [container-type:inline-size]">
+        <div class="absolute inset-0 flex items-center justify-center [container-type:inline-size]">
 
           <div class="absolute h-[100cqw] w-[100cqw] animate-spin
             bg-[conic-gradient(from_0_at_50%_50%,rgba(255,255,255,0.5)_0deg,transparent_60deg,transparent_300deg,rgba(255,255,255,0.5)_360deg)]
@@ -26,7 +26,7 @@ import { Linkedin, Github } from 'lucide-vue-next';
             bg-white/10 blur-md group-hover:h-2/3 group-hover:opacity-100 max-lg:opacity-100">
           </div>
 
-          <span class="relative flex flex-row gap-1 mt-px ml-6 text-xl font-semibold text-center text-transparent transition-all
+          <span class="relative flex flex-row gap-1 text-xl font-semibold text-center text-transparent transition-all
             duration-200 font-manrope bg-gradient-to-b from-white/25 to-white bg-clip-text">
 
             <Linkedin fill="#FFF" />
@@ -45,7 +45,7 @@ import { Linkedin, Github } from 'lucide-vue-next';
       <a href="https://github.com/Gabriel-augt" target="_blank"
         class="relative inline-flex items-center px-20 overflow-hidden transition rounded-full py-7 group bg-zinc-800 ">
 
-        <div class="absolute inset-0 flex items-center [container-type:inline-size]">
+        <div class="absolute inset-0 flex items-center justify-center [container-type:inline-size]">
 
           <div
             class="absolute h-[100cqw] w-[100cqw] animate-spin
@@ -59,7 +59,7 @@ import { Linkedin, Github } from 'lucide-vue-next';
             bg-white/10 blur-md group-hover:h-2/3 group-hover:opacity-100 max-lg:opacity-100">
           </div>
 
-          <span class="relative flex flex-row gap-1 mt-px ml-8 text-xl font-semibold text-center text-transparent transition-all duration-200
+          <span class="relative flex flex-row gap-1 text-xl font-semibold text-center text-transparent transition-all duration-200
             font-manrope bg-gradient-to-b from-white/25 to-white bg-clip-text">
 
             <Github fill="#FFF" />

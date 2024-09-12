@@ -1,10 +1,11 @@
 <template>
 
-    <h1 class="mb-3 text-3xl font-bold">
+    <h1 class="mb-3 text-3xl font-bold max-[380px]:ml-4">
         Quizzler
     </h1>
 
-    <p class="text-base max-w-[358px] tracking-wider leading-relaxed max-[380px]:w-[340px]">
+    <p class="text-base max-w-[358px] tracking-wider leading-relaxed
+    max-[380px]:max-w-max max-[380px]:ml-4 ">
 
         {{ $t('descriptionQuizzleroProject.pt1') }}
 
