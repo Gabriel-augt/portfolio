@@ -7,6 +7,8 @@ export default defineNuxtConfig({
     'nuxt-lucide-icons'
   ],
   i18n: {
+    lazy: true,
+    strategy: 'prefix',
     defaultLocale: 'pt-BR',
     locales: [
       { code: 'pt-BR', name: 'Português', file: 'pt-BR.js' },

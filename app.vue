@@ -7,6 +7,7 @@ const homeIndicator = ref(false);
 const projectsIndicator = ref(false);
 const aboutMeIndicator = ref(false);
 const route = useRoute();
+const localePath = useLocalePath();
 
 const fixedBg = (clicksOnIcons) => {
 
@@ -87,7 +88,7 @@ if (route.path === '/' || route.path === '') {
 
         <nav class="z-10 flex flex-row gap-5 p-3 text-xs tracking-wider font-manrope">
 
-          <NuxtLink to="/">
+          <NuxtLink :to="localePath('/')">
 
             <navBar-HomeNavBar @click="fixedBg('home')" :class="homeBg" />
 
@@ -96,7 +97,7 @@ if (route.path === '/' || route.path === '') {
 
           </NuxtLink>
 
-          <NuxtLink to="/projects">
+          <NuxtLink :to="localePath('/projects')">
 
             <navBar-ProjectsNavBar @click="fixedBg('projects')" :class="projectsBg" />
 
@@ -105,7 +106,7 @@ if (route.path === '/' || route.path === '') {
 
           </NuxtLink>
 
-          <NuxtLink to="/about">
+          <NuxtLink :to="localePath('/about')">
 
             <navBar-AboutMeNavBar @click="fixedBg('aboutMe')" :class="aboutMeBg" />
 

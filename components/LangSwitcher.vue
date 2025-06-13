@@ -1,5 +1,5 @@
 <script setup>
-const { locales, setLocale } = useI18n()
+const { setLocale } = useI18n()
 
 const dropdown = ref(false);
 const arrow = ref();
@@ -16,7 +16,7 @@ const changeLanguage = (language) => {
 
     languages()
 
-    locale.value = language
+    setLocale(language)
 
 }
 
@@ -43,14 +43,14 @@ const changeLanguage = (language) => {
 
             </span>
 
-            <span @click="changeLanguage('en')" class="px-4 py-2 my-2 cursor-pointer hover:bg-neutral-700 hover:rounded-lg
+            <span @click="changeLanguage('en-US')" class="px-4 py-2 my-2 cursor-pointer hover:bg-neutral-700 hover:rounded-lg
             after:absolute after:w-20 after:h-px after:top-36 after:right-4 after:bg-zinc-700">
 
                 English
 
             </span>
 
-            <span @click="changeLanguage('es')" class="px-4 py-2 my-2 cursor-pointer hover:bg-neutral-700 hover:rounded-lg">
+            <span @click="changeLanguage('es-ES')" class="px-4 py-2 my-2 cursor-pointer hover:bg-neutral-700 hover:rounded-lg">
 
                 Español
 
