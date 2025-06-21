@@ -71,7 +71,7 @@ if (route.path === '/' || route.path === '') {
 
   <div>
 
-    <main>
+    <main class="w-screen">
 
       <figure class="fixed bg-gradient-to-tr from-black to-black/95">
 

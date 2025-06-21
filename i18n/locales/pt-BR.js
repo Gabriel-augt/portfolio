@@ -13,6 +13,17 @@ export default {
     I will use these texts in several parts (pt) to apply <strong>
     via html and not use v-html, as it is not recommended...
   */
+
+  descriptionGbCafeProject: {
+    pt1: "Desenvolvi uma cafeteria conceitual onde os usuários podem",
+    pt2: "explorar o cardápio, personalizar pedidos e finalizar a compra",
+    pt3: "com poucos cliques, oferecendo uma experiência",
+    pt4: "moderna e responsiva",
+    pt5: "para os pedidos online.",
+    pt6: "Português, inglês e espanhol",
+    pt7: "disponível.",
+  },
+
   descriptionFlamengoProject: {
     pt1: "Desenvolvi um site conceitual para o Flamengo, focado em uma experiência visual",
     pt2: "moderna e intuitiva",
