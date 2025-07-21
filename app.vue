@@ -42,27 +42,26 @@ const fixedBg = (clicksOnIcons) => {
   }
 };
 
-if (route.path === '/' || route.path === '') {
-
-  homeBg.value = 'bg-teal-700';
-  homeIndicator.value = true;
-
-} else if (route.path === '/projects') {
+if (route.path.includes('/projects') == true) {
 
   projectsBg.value = 'bg-rose-900';
   projectsIndicator.value = true;
 
-} else if (route.path === '/about') {
+} else if (route.path.includes('/about')) {
   
   aboutMeBg.value = 'bg-sky-700';
   aboutMeIndicator.value = true;
 
-} else if (route.path === '/thanks') {
+} else if (route.path.includes('/thanks')) {
 
   aboutMeIndicator.value = false;
   projectsIndicator.value = false;
   homeIndicator.value = false;
 
+} else {
+
+  homeBg.value = 'bg-teal-700';
+  homeIndicator.value = true;
 }
 
 </script>

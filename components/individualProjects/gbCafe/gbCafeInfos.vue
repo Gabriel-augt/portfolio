@@ -30,7 +30,7 @@
 
                 </figure>
 
-                <p class="mt-1 text-xs">Tailwind</p>
+                <p class="mt-1 text-xs">Tailwind CSS</p>
 
             </div>
 

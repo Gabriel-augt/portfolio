@@ -36,21 +36,21 @@ const changeLanguage = (language) => {
 
         <div v-if="dropdown" class="flex flex-col items-center w-full mt-2 rounded-md bg-black-925 divide-zinc-700">
 
-            <span @click="changeLanguage('pt-BR')" class="px-2 py-2 my-2 cursor-pointer hover:bg-neutral-700 hover:rounded-lg
+            <span @click="changeLanguage('pt')" class="px-2 py-2 my-2 cursor-pointer hover:bg-neutral-700 hover:rounded-lg
             after:absolute after:w-20 after:h-px after:top-[87px] after:right-4 after:bg-zinc-700">
 
                 Português
 
             </span>
 
-            <span @click="changeLanguage('en-US')" class="px-4 py-2 my-2 cursor-pointer hover:bg-neutral-700 hover:rounded-lg
+            <span @click="changeLanguage('en')" class="px-4 py-2 my-2 cursor-pointer hover:bg-neutral-700 hover:rounded-lg
             after:absolute after:w-20 after:h-px after:top-36 after:right-4 after:bg-zinc-700">
 
                 English
 
             </span>
 
-            <span @click="changeLanguage('es-ES')" class="px-4 py-2 my-2 cursor-pointer hover:bg-neutral-700 hover:rounded-lg">
+            <span @click="changeLanguage('es')" class="px-4 py-2 my-2 cursor-pointer hover:bg-neutral-700 hover:rounded-lg">
 
                 Español
 

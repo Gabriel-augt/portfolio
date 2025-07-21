@@ -30,43 +30,7 @@
 
                 </figure>
 
-                <p class="mt-1 text-xs">Tailwind</p>
-
-            </div>
-
-            <div class="flex flex-col items-center">
-
-                <figure class="p-2 border rounded-xl border-gray-925 hover:bg-black-925">
-
-                    <img class="w-6 h-6 rounded-md" src="/javascript.svg">
-
-                </figure>
-
-                <p class="mt-1 text-xs">JavaScript</p>
-
-            </div>
-
-            <div class="flex flex-col items-center">
-
-                <figure class="p-2 border rounded-xl border-gray-925 hover:bg-black-925">
-
-                    <img class="w-6 h-6" src="/html.svg">
-
-                </figure>
-
-                <p class="mt-1 text-xs">HTML</p>
-
-            </div>
-
-            <div class="flex flex-col items-center">
-
-                <figure class="p-2 border rounded-xl border-gray-925 hover:bg-black-925">
-
-                    <img class="w-6 h-6" src="/css.svg">
-
-                </figure>
-
-                <p class="mt-1 text-xs">CSS</p>
+                <p class="mt-1 text-xs">Tailwind CSS</p>
 
             </div>
 

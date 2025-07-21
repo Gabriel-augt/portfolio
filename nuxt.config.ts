@@ -9,11 +9,11 @@ export default defineNuxtConfig({
   i18n: {
     lazy: true,
     strategy: 'prefix',
-    defaultLocale: 'pt-BR',
+    defaultLocale: 'pt',
     locales: [
-      { code: 'pt-BR', name: 'Português', file: 'pt-BR.js' },
-      { code: 'en-US', name: 'English', file: 'en-US.js' },
-      { code: 'es-ES', name: 'Spanish', file: 'es-ES.js' }
+      { iso: 'pt-BR', code: 'pt', name: 'Português', file: 'pt-BR.js' },
+      { iso: 'en-US', code: 'en', name: 'English', file: 'en-US.js' },
+      { iso: 'es-ES', code: 'es', name: 'Spanish', file: 'es-ES.js' }
     ]
   }
 })

@@ -4,7 +4,7 @@
 
     <button class="flex flex-row items-center justify-center gap-4 mt-8">
 
-      <a href="https://www.linkedin.com/in/gabriel-augt" target="_blank"
+      <a href="https://www.linkedin.com/in/gabriel-agt" target="_blank"
         class="relative inline-flex items-center px-20 overflow-hidden transition rounded-full py-7 group bg-zinc-800 ">
 
         <div class="absolute inset-0 flex items-center justify-center [container-type:inline-size]">

@@ -1,9 +1,3 @@
-<script setup>
-
-import { Github } from 'lucide-vue-next';
-
-</script>
-
 <template>
 
     <div class="flex flex-row gap-6 max-[344px]:-ml-2 max-[380px]:gap-1">
