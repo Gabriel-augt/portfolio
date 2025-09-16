@@ -5,7 +5,7 @@
         <section class="flex flex-col w-full p-6 mt-6 border bg-neutral-900 rounded-4xl border-gray-925">
 
             <figure>
-                <img class="mb-4 w-[516px] rounded-2xl" src="../assets/avatar.png">
+                <NuxtImg class="mb-4 w-[516px] rounded-2xl" src="/profile.png" />
             </figure>
 
 
@@ -20,7 +20,7 @@
                 <div class="border rounded-lg bg-black-925 hover:bg-opacity-50 border-gray-925">
 
                     <a class="flex justify-center w-full text-base font-semibold tracking-wide text-white font-manrope"
-                        href="https://www.linkedin.com/in/gabriel-agt" target="_blank">
+                        href="https://www.linkedin.com/in/gabriel-augt" target="_blank">
 
                         <figure class="flex flex-row gap-2 p-2">
 

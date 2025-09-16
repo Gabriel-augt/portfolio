@@ -4,7 +4,7 @@
 
         <figure>
 
-            <img class="w-[368px] h-[192px] rounded-xl max-[380px]:w-screen" src="/gbTraining-print.png">
+            <NuxtImg class="w-[368px] h-[192px] rounded-xl max-[380px]:w-screen" src="/gbTraining-print.png" />
 
         </figure>
 
@@ -14,7 +14,7 @@
 
                 <figure class="p-2 border rounded-xl border-gray-925 hover:bg-black-925">
 
-                    <img class="w-6 h-6 rounded-md" src="/nextjs.svg">
+                    <NuxtImg class="w-6 h-6 rounded-md" src="/nextjs.svg" />
 
                 </figure>
 
@@ -26,7 +26,7 @@
 
                 <figure class="p-2 border rounded-xl border-gray-925 hover:bg-black-925">
 
-                    <img class="w-6 h-6 rounded-md" src="/typescript.svg">
+                    <NuxtImg class="w-6 h-6 rounded-md" src="/typescript.svg" />
 
                 </figure>
 
@@ -38,11 +38,23 @@
 
                 <figure class="p-2 border rounded-xl border-gray-925 hover:bg-black-925">
 
-                    <img class="w-6 h-6 rounded-md" src="/tailwind-css.svg">
+                    <NuxtImg class="w-6 h-6 rounded-md" src="/tailwind-css.svg" />
 
                 </figure>
 
                 <p class="mt-1 text-xs">Tailwind CSS</p>
+
+            </div>
+
+            <div class="flex flex-col items-center w-22">
+
+                <figure class="p-2 border rounded-xl border-gray-925 hover:bg-black-925">
+
+                    <NuxtImg class="w-6 h-6 rounded-md" src="/figma.svg" />
+
+                </figure>
+
+                <p class="mt-1 text-xs">Figma</p>
 
             </div>
 

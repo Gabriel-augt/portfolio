@@ -8,6 +8,7 @@ const projectsIndicator = ref(false);
 const aboutMeIndicator = ref(false);
 const route = useRoute();
 const localePath = useLocalePath();
+const { locale } = useI18n();
 
 const fixedBg = (clicksOnIcons) => {
 
@@ -52,16 +53,17 @@ if (route.path.includes('/projects') == true) {
   aboutMeBg.value = 'bg-sky-700';
   aboutMeIndicator.value = true;
 
-} else if (route.path.includes('/thanks')) {
+} else if (route.path.includes(`/${locale.value}`) || route.path === '/') {
+
+  homeBg.value = 'bg-teal-700';
+  homeIndicator.value = true;
+
+} else {
 
   aboutMeIndicator.value = false;
   projectsIndicator.value = false;
   homeIndicator.value = false;
 
-} else {
-
-  homeBg.value = 'bg-teal-700';
-  homeIndicator.value = true;
 }
 
 </script>
@@ -74,7 +76,7 @@ if (route.path.includes('/projects') == true) {
 
       <figure class="fixed bg-gradient-to-tr from-black to-black/95">
 
-        <img class="w-screen h-screen opacity-30" src="/bg.jpg">
+        <NuxtImg class="w-screen h-screen opacity-30 object-cover" src="/bg.jpg" />
 
       </figure>
 

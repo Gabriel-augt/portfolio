@@ -23,7 +23,7 @@
 
             <figure class="w-6 h-6 mt-[2px]">
 
-              <img src="/eye.svg" />
+              <NuxtImg src="/eye.svg" />
 
             </figure>
 

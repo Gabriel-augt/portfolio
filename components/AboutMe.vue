@@ -2,12 +2,12 @@
 
   <div class="flex justify-center text-white-75">
 
-    <div class="z-10 flex flex-row justify-center h-screen gap-6 max-[1200px]:flex-col
-    max-[1200px]:gap-0 max-[1200px]:h-min max-[590px]:container max-[1200px]:mx-3">
+    <div class="z-10 flex flex-row justify-center h-min gap-6 max-[1200px]:flex-col
+    max-[1200px]:gap-0 max-[590px]:container max-[1200px]:mx-3">
 
       <Profile />
 
-      <aside class="space-y-4 font-semibold tracking-wide mt-7 font-manrope max-[1200px]:mb-28">
+      <aside class="space-y-4 font-semibold tracking-wide mt-7 font-manrope mb-28">
 
         <section class="flex flex-col text-left">
 
