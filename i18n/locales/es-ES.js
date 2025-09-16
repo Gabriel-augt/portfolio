@@ -14,8 +14,17 @@ export default {
     via html and not use v-html, as it is not recommended...
   */
 
+  descriptionGbTrainingProject: {
+    pt1: "Página de destino desarrollada para",
+    pt2: "presentar los servicios",
+    pt3: "de un entrenador personal, transmitiendo confianza y profesionalismo al público. Diseñada para ser",
+    pt4: "moderna, minimalista y receptiva. ",
+    pt5: "Portugués, Inglés y Español",
+    pt6: "disponible.",
+  },
+
   descriptionGbCafeProject: {
-    pt1: "Desarrollé una cafetería conceptual donde los usuarios pueden",
+    pt1: "Una cafetería conceptual donde los usuarios pueden",
     pt2: "explorar el menú, personalizar los pedidos y terminar la compra",
     pt3: "pocos clics, ofreciendo una experiencia",
     pt4: "moderna y receptiva",
@@ -25,7 +34,7 @@ export default {
   },
 
   descriptionFlamengoProject: {
-    pt1: "Desarrollé un sitio web conceptual para Flamengo, enfocado en una experiencia visual",
+    pt1: "Un sitio web conceptual para Flamengo, enfocado en una experiencia visual",
     pt2: "moderna e intuitiva",
     pt3: "destacando la historia, los títulos y las noticias del club. Utilicé HTML, CSS y JavaScript para crear una",
     pt4: "interfaz interactiva y responsiva",

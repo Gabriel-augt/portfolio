@@ -14,8 +14,17 @@ export default {
     via html and not use v-html, as it is not recommended...
   */
 
+  descriptionGbTrainingProject: {
+    pt1: "Landing page developed to",
+    pt2: "present the services",
+    pt3: "of a personal trainer, conveying confidence and professionalism to the public. Designed to be",
+    pt4: "modern, minimalist, and responsive. ",
+    pt5: "Portuguese, English and Spanish",
+    pt6: "available.",
+  },
+
   descriptionGbCafeProject: {
-    pt1: "I developed a conceptual cafeteria where users can",
+    pt1: "A conceptual cafeteria where users can",
     pt2: "explore the menu, customize orders and finish the purchase",
     pt3: "with few clicks, offering a",
     pt4: "modern and responsive",
@@ -25,7 +34,7 @@ export default {
   },
 
   descriptionFlamengoProject: {
-    pt1: "I developed a conceptual website for Flamengo, focused on an experience visual",
+    pt1: "A conceptual website for Flamengo, focused on an experience visual",
     pt2: "modern and intuitive",
     pt3: "highlighting the club's history, titles and news. I used HTML, CSS and JavaScript to create a",
     pt4: "interactive and responsive interface",
