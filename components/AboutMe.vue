@@ -28,19 +28,25 @@
 
               {{ $t('descriptionAboutMe.pt3') }}
 
-              <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>
-
-              {{ $t('descriptionAboutMe.pt4') }} <strong>VueJS</strong>.
+              <strong>{{ $t('descriptionAboutMe.pt4') }}</strong>
 
               {{ $t('descriptionAboutMe.pt5') }}
 
-              <strong>{{ $t('descriptionAboutMe.pt6') }}</strong>,
+              <strong>{{ $t('descriptionAboutMe.pt6') }}</strong>.
 
               {{ $t('descriptionAboutMe.pt7') }}
 
               <strong>{{ $t('descriptionAboutMe.pt8') }}</strong>
 
               {{ $t('descriptionAboutMe.pt9') }}
+
+              {{ $t('descriptionAboutMe.pt10') }}
+
+              <strong>{{ $t('descriptionAboutMe.pt11') }}</strong>
+
+              {{ $t('descriptionAboutMe.pt12') }}
+
+              <strong>{{ $t('descriptionAboutMe.pt13') }}</strong>.
 
             </p>
 

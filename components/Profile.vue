@@ -5,7 +5,7 @@
         <section class="flex flex-col w-full p-6 mt-6 border bg-neutral-900 rounded-4xl border-gray-925">
 
             <figure>
-                <NuxtImg class="mb-4 w-[516px] rounded-2xl" src="/profile.png" />
+                <NuxtImg class="mb-4 w-[516px] rounded-2xl" src="/Profile.png" />
             </figure>
 
 
