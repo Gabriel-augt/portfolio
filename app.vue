@@ -53,7 +53,12 @@ if (route.path.includes('/projects') == true) {
   aboutMeBg.value = 'bg-sky-700';
   aboutMeIndicator.value = true;
 
-} else if (route.path.includes(`/${locale.value}`) || route.path === '/') {
+} else if (
+
+  route.path === '/' ||
+  route.path === `/${locale.value}`
+
+) {
 
   homeBg.value = 'bg-teal-700';
   homeIndicator.value = true;
@@ -76,7 +81,7 @@ if (route.path.includes('/projects') == true) {
 
       <figure class="fixed bg-gradient-to-tr from-black to-black/95">
 
-        <NuxtImg class="w-screen h-screen opacity-30 object-cover" src="/bg.jpg" />
+        <NuxtImg class="w-screen h-screen opacity-30 object-cover" src="/bg.png" />
 
       </figure>
 

@@ -14,6 +14,17 @@ export default {
     via html and not use v-html, as it is not recommended...
   */
 
+  descriptionGbJewelryProject: {
+    pt1: "Conceptual platform for a luxury jewelry store developed to simulate a",
+    pt2: "real e-commerce experience",
+    pt3: "The project prioritizes conveying",
+    pt4: "sophistication, exclusivity, and trust,",
+    pt5: "with",
+    pt6: "intuitive navigation and usability",
+    pt7: "Portuguese, English and Spanish",
+    pt8: "available.",
+  },
+
   descriptionGbTrainingProject: {
     pt1: "Landing page developed to",
     pt2: "present the services",
@@ -70,8 +81,8 @@ export default {
     pt7: "Much of my experience comes from",
     pt8: "personal projects",
     pt9: "where I was able to experiment, make mistakes, learn, and evolve.",
-    pt10: "With each project, I strive to deliver more than just code, such as providing",
-    pt11: "information in different languages",
+    pt10: "I seek to deliver more than just code, such as making",
+    pt11: "information available in different languages",
     pt12: "and creating interfaces that are always",
     pt13: "responsive and intuitive",
   },

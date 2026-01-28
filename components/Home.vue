@@ -1,6 +1,6 @@
 <template>
 
-  <main class="flex flex-col items-center justify-center w-screen h-screen">
+  <main class="flex flex-col items-center justify-center w-screen h-screen backdrop-blur">
 
     <LangSwitcher />
 

@@ -34,7 +34,7 @@ const changeLanguage = (language) => {
 
         </button>
 
-        <div v-if="dropdown" class="flex flex-col items-center w-full mt-2 rounded-md bg-black-925 divide-zinc-700">
+        <div v-if="dropdown" class="flex flex-col items-center w-full mt-2 rounded-md bg-black-925/30 divide-zinc-700">
 
             <span @click="changeLanguage('pt')" class="px-2 py-2 my-2 cursor-pointer hover:bg-neutral-700 hover:rounded-lg
             after:absolute after:w-20 after:h-px after:top-[87px] after:right-4 after:bg-zinc-700">
