@@ -53,12 +53,7 @@ if (route.path.includes('/projects') == true) {
   aboutMeBg.value = 'bg-sky-700';
   aboutMeIndicator.value = true;
 
-} else if (
-
-  route.path === '/' ||
-  route.path === `/${locale.value}`
-
-) {
+} else if (route.path === '/') {
 
   homeBg.value = 'bg-teal-700';
   homeIndicator.value = true;

@@ -1,6 +1,6 @@
 <template>
 
-  <div class="flex justify-center text-white-75">
+  <div class="flex justify-center text-white-75 backdrop-blur">
 
     <div class="z-10 flex flex-row justify-center h-min gap-6 max-[1200px]:flex-col
     max-[1200px]:gap-0 max-[590px]:container max-[1200px]:mx-3">

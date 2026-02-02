@@ -3,7 +3,7 @@
     <section class="z-10 flex flex-col items-center justify-center gap-6 h-min">
 
         <section class="w-[908px] h-[408px] mt-6 flex flex-row justify-center items-center border
-        border-gray-925 rounded-4xl bg-gradient-to-tr from-black/50 to-white-75 max-[850px]:mt-0
+        border-gray-925 rounded-4xl bg-gradient-to-tr from-black/50 to-white-75/55 max-[850px]:mt-0
          max-[850px]:rounded-none max-[850px]:flex-col max-[850px]:h-[834px] max-[960px]:w-screen z-10">
 
             <div class="h-full grow flex flex-col justify-center items-start ml-12 rounded-[31px]
